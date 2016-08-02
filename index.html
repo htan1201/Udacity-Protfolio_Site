@@ -1,0 +1,106 @@
+<!doctype html>  <!-- telling the browser its html -->
+<html lang="en"> <!-- telling the browser its in english -->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>My Portfolio Project</title>
+        <!-- normalize the page -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <!-- add bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- ass fonts -->
+        <link href='https://fonts.googleapis.com/css?family=Lato:400,300,100' rel='stylesheet' type='text/css'>
+        <!-- main CSS -->
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <div class="container">
+        <!-- Header -->
+        <header id="top" class="row">
+                <div class="col-sm-6 text-center logo-container">
+                    <img src="img/logo.svg" alt="Website Logo" class="logo">
+                </div>
+                <div class="col-sm-6 text-center title-container">
+                    <h1 class="text-uppercase">Hendy Budhigraha</h1>
+                    <h4 class="text-uppercase">Front-End Developer</h4>
+                </div>
+        </header>
+        <!-- navigation bar -->
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#top">Home <span class="sr-only">(current)</span></a></li>
+                        <li><a href="#footer">Footer</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+        <!-- Banner Section -->
+        <img src="img/banner-sm.png"
+             srcset="img/banner-sm.png 360w, img/banner-md.png 768w, img/banner-lg.png 933w"
+             sizes="100vw"
+             alt="my portfolio banner"
+             class="img-responsive"
+        >
+        <!-- Feature work section -->
+        <section class="row">
+                <h2 class="text-center featured-work">Featured Work</h2>
+                <!-- Feature Work 1 -->
+                <div class="col-sm-4 text-center">
+                    <img src="http://placehold.it/250x150" alt="my first featured project" class="img-responsive center-block">
+                    <p class="text-uppercase"><a href="http://github.com">Appify</a></p>
+                    <a href="http://github.com">www.github.com</a>
+                </div>
+
+                <!-- Feature Work 2 -->
+                <div class="col-sm-4 text-center">
+                    <img src="http://placehold.it/250x150" alt="my second featured project" class="img-responsive center-block">
+                    <p class="text-uppercase"><a href="http://github.com">Sunflower</a></p>
+                    <a href="http://github.com">www.github.com</a>
+                </div>
+
+                <!-- Feature Work 3 -->
+                <div class="col-sm-4 text-center">
+                    <img src="http://placehold.it/250x150" alt="my third featured project" class="img-responsive center-block">
+                    <p class="text-uppercase"><a href="http://github.com">Bokeh</a></p>
+                    <a href="http://github.com">www.github.com</a>
+                </div>
+        </section>
+        <hr>
+        <!-- Footer -->
+        <p class="row text-center contact">Contact me:</p>
+        <footer id="footer" class="footer">
+            <ul class="row text-center">
+                <li class="col-md-3 zocial-call"><a href="tel:+6591234567"> (+65) 91234567</a></li>
+                <li class="col-md-3 zocial-gmail"><a href="mailto:htan1201@outlook.com"> htan1201@outlook.com</a></li>
+                <li class="col-md-3 zocial-facebook"><a href="https://www.facebook.com/"> Facebook</a></li>
+                <li class="col-md-3 zocial-linkedin"><a href="https://www.linkedin.com/"> LinkedIn</a></li>
+            </ul>
+            <div>
+                <p>
+                    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                        <img src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+                             alt="Valid CSS!"
+                             class="css-validation">
+                    </a>
+                </p>
+            </div>
+        </footer>
+        <script   src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <!-- Container div for bootstrap -->
+        </div>
+    </body>
+</html>
